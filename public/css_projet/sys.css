@@ -1,0 +1,98 @@
+nav{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(224, 224, 223, 0.952);
+}
+.menu{
+    justify-content: center;
+    align-items: center;
+    
+}
+.bg-light {
+	background-color: transparent !important;
+}
+.cote{
+    color: black!important;
+    font-size: 40px!important;
+}
+.navbar-brand{
+    
+    float: left; 
+    font-size: 45px;
+    color: chartreuse;
+    font-weight: bold;
+}
+ul li {
+    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.boite{
+    float: right;
+    background-color: black;
+    height: 35px;
+    
+    width: 110px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+.boite li a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.boite:hover{
+    background: whitesmoke;
+    color: black;
+}
+/* section*/
+.corps{
+     margin-top:150px ; 
+     
+}
+.col{
+    margin-bottom: 20px;
+}
+.section-title .title {
+    color: rgba(0, 0, 0, 0.489);
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 0px 5px white;
+    border-radius: 10px;
+} 
+.section-title .title:hover{
+    color:  rgb(18,102, 241);
+}
+.card{
+    transition: all 2s;
+}
+.card:hover{
+
+    transform: scale(0.5);
+}
+.card img{
+    height: 200px;
+}
+.texte{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.sante{
+    text-align: justify;
+}
